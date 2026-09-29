@@ -1,17 +1,21 @@
-# kartu_profil
+# Study Planner
 
-A new Flutter project.
+Aplikasi mobile berbasis Flutter yang dirancang untuk membantu mahasiswa atau pelajar dalam mengelola jadwal kuliah, memantau status aktivitas akademik, serta menyediakan fitur timer sesi belajar real-time.
 
-## Getting Started
+## Fitur Utama
+- **Manajemen Aktivitas:** Menambah, mengedit, dan menghapus jadwal atau kegiatan akademik.
+- **Sesi Belajar Real-time (Stopwatch):** Fitur timer interaktif di halaman detail aktivitas untuk menghitung durasi belajar secara langsung.
+- **Kategori & Status:** Pengelompokan berdasarkan mata kuliah/kategori serta status (Sedang Jalan, Mendatang, Selesai).
+- **Bookmark / Favorit:** Menandai aktivitas penting agar mudah diakses kembali.
 
-This project is a starting point for a Flutter application.
+## Daftar Package & Versi (pubspec.yaml)
+Berikut adalah package utama yang digunakan dalam proyek ini:
+- `flutter` (SDK bawaan)
+- `provider: ^6.1.2` (Untuk State Management)
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cara Menjalankan Proyek
+1. Pastikan Flutter SDK sudah terinstal di komputer.
+2. Clone atau buka folder proyek ini di Android Studio atau VS Code.
+3. Jalankan perintah berikut di terminal untuk mengunduh package:
+   ```bash
+   flutter pub get
